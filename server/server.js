@@ -6,7 +6,7 @@ const path = require('path');
 require('dotenv').config();
 
 // File imports
-const route = require('./routes');
+const routes = require('./routes');
 
 const port = process.env.PORT || 3000;
 const app = express();
