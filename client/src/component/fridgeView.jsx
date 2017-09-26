@@ -16,17 +16,36 @@ class Fridge extends Component {
     this.props.dispatch(getItems());
   }
 
-  render() {
-    <div>
-      {this.props.fridge}
-      <ItemListView />
-    </div>
+  filterItems(type) {
+    if (item.type === type) {
+      return item;
+    } 
   }
+
+  render() {
+    const types = []; 
+    for (let i = 0; i < types.length; i++) {
+      const filteredItems = this.props.items.filter(filterItems(types[i]) => {
+        return (
+          <div className={types[i]}>
+            <ItemListView type={types[i]} items={filteredItems}/> 
+          </div>
+        )
+      });  
+
+    return (
+      <div>
+        {filteredItems}
+      </div>
+    )
+  }
+
 }
 
 const fridgeState = (store) => {
   return {
     fridge: store.fridge
+    items: store.items
   }
 }
 
