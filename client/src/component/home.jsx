@@ -11,18 +11,16 @@ class Home extends Component {
 
   render() {
     return (
-    
-    <div>
-      Hello this is HOME
-      <div>
-        <div> 
+    <div className="ui grid">
+      <div className="row">
+        <div className="eight wide column"> 
           <Fridge />
         </div>
-        <div>
+        <div className="eight wide column">
           <Messages />
         </div>
       </div>
-      <div>
+      <div className="six wide column">
         <Search />
       </div>
     </div>

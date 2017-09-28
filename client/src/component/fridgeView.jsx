@@ -34,6 +34,7 @@ class Fridge extends Component {
     if (this.props.items.length > 0) {
       return (
         <div>
+          <h3 className="ui dividing header">Fridge</h3>
           <div>
             <ItemAddition />
           </div>
