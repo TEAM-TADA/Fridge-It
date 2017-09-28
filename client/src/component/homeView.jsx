@@ -17,7 +17,7 @@ class HomeView extends Component {
     return (
       <Router>
         <div>
-          <div className="row">
+          <div className="ui pointing menu">
             <a className="item"><Link to="/">HOME</Link></a>
             <a className="item"><Link to="/search">Recipes</Link></a>
             <a className="item"><Link to="/login">Log In</Link></a>
