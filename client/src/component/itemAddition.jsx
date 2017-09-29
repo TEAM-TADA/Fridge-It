@@ -49,7 +49,7 @@ class itemAddition extends Component {
       {
         key: 4, 
         text: "grains and starches",
-        value: "grains and starches"
+        value: "grains"
       },
       {
         key: 5, 
@@ -59,7 +59,7 @@ class itemAddition extends Component {
       {
         key: 6, 
         text: "miscellaneous",
-        value: "miscellaneous"
+        value: "misc"
       }
     ]; 
 

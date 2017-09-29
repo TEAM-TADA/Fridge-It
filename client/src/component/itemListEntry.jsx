@@ -1,34 +1,42 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Table, Icon } from 'semantic-ui-react';
 
 const Item = (props) => {
   console.log('item props:', props);
   return (
-    <Grid.Column textAlign="center">
-      <div>
-        {props.name} {props.quantity}
-      </div>
-      <button 
-        className="ui mini icon button"
+    <div>
+    <Table.Cell>
+    {props.quantity}
+    </Table.Cell>
+    <Table.Cell textAlign="center">
+        {props.name} 
+    </Table.Cell>
+    <Table.Cell singleLine>
+      <Icon 
+        size="small"
         onClick={() => {props.updateItem({
           name: props.name, 
           quantity: props.quantity + 1,
           type: props.type
         }, props.id)}}
-      ><i className="plus icon"></i></button>
-      <button 
-        className="ui mini icon button"
+        name="plus"
+      ></Icon>
+      <Icon 
+        name="minus"
+        size="small"
         onClick={() => {props.updateItem({
           name: props.name,
           quantity: props.quantity - 1,
           type: props.type
         }, props.id)}}
-      ><i className="minus icon"></i></button>
-      <button 
-        className="ui mini icon button"
+      ></Icon>
+      <Icon 
+        name="remove"
+        size="small"
         onClick={()=> {props.deleteItem(props.id)}}
-      ><i className="remove icon"></i></button>
-    </Grid.Column>
+      ></Icon>
+    </Table.Cell>
+    </div>
   )
 }
 

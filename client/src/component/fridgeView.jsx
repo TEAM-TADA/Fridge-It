@@ -29,12 +29,12 @@ class Fridge extends Component {
   }
 
   render() {
-    const types = ["produce", "dairy", "protein", "grains and starches", "frozen", "miscellaneous"]; 
+    const types = ["produce", "dairy", "protein", "grains", "frozen", "misc"]; 
 
     if (this.props.items.length > 0) {
       return (
-        <div>
-          <h3 className="ui dividing header">Fridge</h3>
+        <div className='wrapper'>
+          <h3 className='ui dividing header'>Fridge</h3>
           <div>
             <ItemAddition />
           </div>
