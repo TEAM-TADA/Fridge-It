@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  height: 700px;
+  width: 450px;
+  border: none;
+  margin: 0 auto;
+  border-radius: .285716rem
+}
+
+.frozen {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #bad5dd;
+  height: 200px;
+  width: 450px;
+  border: none;
+  bottom: 500px;
+}
+
+.protein {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #FC7E7E;
+  height: 145px;
+  width: 220px;
+  border: none;
+  bottom: 345px;
+  left: 0px
+}
+
+.grains {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #F2CC7B;
+  height: 145px;
+  width: 220px;
+  border: none;
+  bottom: 345px;
+  right: 0px
+}
+
+.dairy {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #A5C6EF;
+  height: 125px;
+  width: 450px;
+  border: none;
+  bottom: 210px
+}
+
+.produce {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #A2D8C0;
+  height: 200px;
+  width: 290px;
+  border: none;
+  bottom: 0px;
+  left: 0px 
+}
+
+.misc {
+  position: absolute;
+  border-radius: .28571429rem;
+  background-color: #e5a5c2;
+  height: 200px;
+  width: 150px;
+  border: none;
+  bottom: 0px;
+  right: 0px
+}
+
