@@ -52,7 +52,7 @@ class MessageListView extends Component {
           </Form>
           {messageList.length > 0 ? messageList.map(message => (
             <MessageListEntry {...actions} key={message.id} message={message} />
-          )): <h3> 'Your message board is empty' </h3>}
+          )): <h3> Your message board is empty </h3>}
         </div>
       )
   }
