@@ -22,5 +22,12 @@ If you are not already familiar with Redux, here are the videos we used. Be sure
 ###Start Up
 In order to get this app running, begin with 'npm install'. Then run 'npm start' in order to start nodemon and 'npm run compile' to run webpack. You can view the app in the browser using localhost:3000.
 
+RESTful API
+you can find the request routes at server > routes > index.js
+
 ###Developers
-The developers for this app are Tiffany Phan (project owner), Angie Tang, Daniel Chong (scrum master), and Aaron Liss. 
+The developers of this app:
+* Tiffany Phan (project owner)
+* Angie Tang (developer)
+* Daniel Chong (scrum master)
+* Aaron Liss (developer)
