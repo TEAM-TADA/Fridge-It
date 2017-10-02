@@ -101,11 +101,7 @@ class Fridge extends Component {
               let filteredItems = this.filterItems(type.name);
                 return (
                     <Popup
-                      trigger={<div className={styles[type.name]}>
-                          <div className='text'>
-                            {type.display}
-                          </div> 
-                        </div>}
+                      trigger={<div className={styles[type.name]}></div>}
                       flowing
                       hoverable
                       position={type.position}

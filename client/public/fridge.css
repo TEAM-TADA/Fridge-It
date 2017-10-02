@@ -16,9 +16,11 @@
   width: 450px;
   border: none;
   bottom: 500px;
-  /* display:table;
-  vertical-align:middle;
-  text-align:center; */
+  background-image: url("https://image.flaticon.com/icons/svg/251/251942.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
+
 }
 
 .protein {
@@ -30,6 +32,10 @@
   border: none;
   bottom: 345px;
   left: 0px;
+  background-image: url("https://image.flaticon.com/icons/svg/579/579121.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
   /* display:table;
   vertical-align:middle;
   text-align:center; */
@@ -44,6 +50,10 @@
   border: none;
   bottom: 345px;
   right: 0px;
+  background-image: url('https://image.flaticon.com/icons/svg/135/135634.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
   /* display:table;
   vertical-align:middle;
   text-align:center; */
@@ -57,6 +67,10 @@
   width: 450px;
   border: none;
   bottom: 210px;
+  background-image: url('https://image.flaticon.com/icons/svg/571/571475.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
   /* display:table;
   vertical-align:middle;
   text-align:center; */
@@ -71,6 +85,10 @@
   border: none;
   bottom: 0px;
   left: 0px;
+  background-image: url('https://image.flaticon.com/icons/svg/135/135715.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
   /* display:table;
   vertical-align:middle;
   text-align:center; */
@@ -86,6 +104,10 @@
   border: none;
   bottom: 0px;
   right: 0px;
+  background-image: url('https://image.flaticon.com/icons/svg/362/362281.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
   /* display:table;
   vertical-align:middle;
   text-align:center; */
@@ -95,3 +117,13 @@
   display:table-cell;
   vertical-align:middle;
 } */
+
+.icon {
+  /* margin: auto; */
+  display: table-cell;
+  vertical-align: middle;
+  height: 75px;   
+  width: 50%;
+  /* top: 25%;
+  position: relative; */
+}
